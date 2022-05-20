@@ -123,8 +123,9 @@ movies <- rbind(netflix,
                 amazon,
                 hulu)
 
+
 # Saving data
 
-write.table(movies, file = "Data/movies_merged.txt", quote = F, row.names = F, sep = "\t")
-write.table(movies_genres, file = "Data/movies_genres_merged.txt", quote = F, row.names = F, sep = "\t")
-write.table(movies_country, file = "Data/movies_country_merged.txt", quote = F, row.names = F, sep = "\t")
+write.table(movies, file = "Data/movies_merged.csv", quote = F, row.names = F, sep = "\t")
+write.table(movies_genres, file = "Data/movies_genres_merged.csv", quote = F, row.names = F, sep = "\t")
+write.table(movies_country, file = "Data/movies_country_merged.csv", quote = F, row.names = F, sep = "\t")
